@@ -118,7 +118,6 @@ void YohaneWindow::checkGameStatus()
     {
         isGameRunning = false;
         ui->game_status_val->setText("未检测到游戏运行");
-        playAudio(QUrl(SFX_GAME_END));
         readGameData();
         updateDisplayData();
         return;
@@ -133,7 +132,6 @@ void YohaneWindow::checkGameStatus()
         {
             isGameRunning = false;
             ui->game_status_val->setText("未检测到游戏运行");
-            playAudio(QUrl(SFX_GAME_END));
             readGameData();
             updateDisplayData();
             return;

@@ -15,7 +15,6 @@
 #define SFX_HP_LOCK         "qrc:/audio/assets/yhn1.wav"
 #define SFX_DP_LOCK         "qrc:/audio/assets/yhn2.wav"
 #define SFX_UN_LOCK         "qrc:/audio/assets/yhn3.wav"
-#define SFX_GAME_END        "qrc:/audio/assets/yhn4.wav"
 #define SFX_COINS           "qrc:/audio/assets/sfx_gold.wav"
 
 #include <Windows.h>

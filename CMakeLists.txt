@@ -33,10 +33,9 @@ target_link_libraries(Yohane_Modifier
         Qt::Widgets
         Qt6::Multimedia
 )
-#set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES
-        #WIN32_EXECUTABLE ON
-        #MACOSX_BUNDLE ON
-#)
+set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES
+        WIN32_EXECUTABLE ON
+)
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     set(DEBUG_SUFFIX)
