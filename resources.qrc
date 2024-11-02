@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>assets/productPKG.jpg</file>
+        <file>assets/yhn.png</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>assets/sfx_gold.wav</file>
+        <file>assets/yhn0.wav</file>
+        <file>assets/yhn1.wav</file>
+        <file>assets/yhn2.wav</file>
+        <file>assets/yhn3.wav</file>
+        <file>assets/yhn4.wav</file>
+    </qresource>
+</RCC>
